@@ -8,7 +8,7 @@ def find_even_values(src)
   while array_index < array.length do
     array1
     nested_index = 0
-    
+
     while nested_index < array1.length do
       if array1[nested_index].even?
         p array1[nested_index]
